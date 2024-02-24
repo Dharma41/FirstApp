@@ -33,6 +33,27 @@
 			remoteGlobalIDString = ABACDC062B81570400B1F634;
 			remoteInfo = FirstApp;
 		};
+		ABACDC762B89BCF900B1F634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABACDC702B89BCF800B1F634 /* Ind02_DharmendraReddy_Chitte.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABACDC432B89BCF500B1F634;
+			remoteInfo = Ind02_DharmendraReddy_Chitte;
+		};
+		ABACDC782B89BCF900B1F634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABACDC702B89BCF800B1F634 /* Ind02_DharmendraReddy_Chitte.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABACDC532B89BCF800B1F634;
+			remoteInfo = Ind02_DharmendraReddy_ChitteTests;
+		};
+		ABACDC7A2B89BCF900B1F634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABACDC702B89BCF800B1F634 /* Ind02_DharmendraReddy_Chitte.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABACDC5D2B89BCF800B1F634;
+			remoteInfo = Ind02_DharmendraReddy_ChitteUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +70,7 @@
 		ABACDC272B81570500B1F634 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABACDC2B2B81570500B1F634 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		ABACDC2D2B81570500B1F634 /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABACDC702B89BCF800B1F634 /* Ind02_DharmendraReddy_Chitte.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Ind02_DharmendraReddy_Chitte.xcodeproj; path = ../Ind02_DharmendraReddy_Chitte/Ind02_DharmendraReddy_Chitte/Ind02_DharmendraReddy_Chitte.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,7 @@
 		ABACDBFE2B81570400B1F634 = {
 			isa = PBXGroup;
 			children = (
+				ABACDC702B89BCF800B1F634 /* Ind02_DharmendraReddy_Chitte.xcodeproj */,
 				ABACDC092B81570400B1F634 /* FirstApp */,
 				ABACDC202B81570500B1F634 /* FirstAppTests */,
 				ABACDC2A2B81570500B1F634 /* FirstAppUITests */,
@@ -125,6 +148,16 @@
 				ABACDC2D2B81570500B1F634 /* FirstAppUITestsLaunchTests.swift */,
 			);
 			path = FirstAppUITests;
+			sourceTree = "<group>";
+		};
+		ABACDC712B89BCF800B1F634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABACDC772B89BCF900B1F634 /* Ind02_DharmendraReddy_Chitte.app */,
+				ABACDC792B89BCF900B1F634 /* Ind02_DharmendraReddy_ChitteTests.xctest */,
+				ABACDC7B2B89BCF900B1F634 /* Ind02_DharmendraReddy_ChitteUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +250,12 @@
 			mainGroup = ABACDBFE2B81570400B1F634;
 			productRefGroup = ABACDC082B81570400B1F634 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ABACDC712B89BCF800B1F634 /* Products */;
+					ProjectRef = ABACDC702B89BCF800B1F634 /* Ind02_DharmendraReddy_Chitte.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ABACDC062B81570400B1F634 /* FirstApp */,
@@ -225,6 +264,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ABACDC772B89BCF900B1F634 /* Ind02_DharmendraReddy_Chitte.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Ind02_DharmendraReddy_Chitte.app;
+			remoteRef = ABACDC762B89BCF900B1F634 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABACDC792B89BCF900B1F634 /* Ind02_DharmendraReddy_ChitteTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Ind02_DharmendraReddy_ChitteTests.xctest;
+			remoteRef = ABACDC782B89BCF900B1F634 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ABACDC7B2B89BCF900B1F634 /* Ind02_DharmendraReddy_ChitteUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Ind02_DharmendraReddy_ChitteUITests.xctest;
+			remoteRef = ABACDC7A2B89BCF900B1F634 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ABACDC052B81570400B1F634 /* Resources */ = {
